@@ -1,21 +1,22 @@
 body {
-    background:gray;
+    background:#777;
     text-align:center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:gray;
-    width:80%;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color:#777;
+    width:960px;
     margin:10px auto;
+    font-size: 18px;
 }
 
 header{
     padding:20px;
-    background:white;
+    background:#ebebeb;
     margin-bottom:10px;
 }
 
 nav{
     padding:20px;
-    background:white;
+    background:#ebebeb;
     margin-bottom:15px;
 }
 
@@ -25,37 +26,48 @@ nav{
 }
 
 #section {
-    background: white;
+    background: #ebebeb;
     float:left;
-    width:calc(50% - 10px);
+    width:495px;
     height: auto;
     padding: 20px 0 5px 0;
     flex:1;   
 }
 
 article{
-    background:gray;
+    background:#777;
     margin:10px;
     width:auto;
     height: auto;
     padding: 10px 0;
-    color:white;
+    color:#ebebeb;
 }
 
-p{
-    background: white;
+h1,
+h2,
+h3{
+    background: #ebebeb;
     padding:15px;
     width:auto;
     margin:10px;
     height: auto;
-    color:gray;
+    color:#777;
+}
+
+p{
+    background: #ebebeb;
+    padding:15px;
+    width:auto;
+    margin:10px;
+    height: auto;
+    color:#777;
 }
 
 aside{
-    background: white;
-    width:calc( 50% - 10px);
+    background: #ebebeb;
+    width:495px;
     padding: 20px 0 5px 0;
-    margin-left:20px;
+    margin-left:25px;
     float: left;
     flex:1; 
 }
@@ -63,5 +75,5 @@ aside{
 footer{
     clear: both;
     padding:20px;
-    background:white;
+    background:#ebebeb;
 }
